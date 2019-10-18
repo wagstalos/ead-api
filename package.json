@@ -1,0 +1,30 @@
+{
+  "name": "ead-api",
+  "version": "0.0.1",
+  "description": "API plataforma EAD",
+  "main": "test",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wagstalos/ead-api.git"
+  },
+  "keywords": [
+    "plataforma",
+    "EAD"
+  ],
+  "author": "Wagner Paulo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wagstalos/ead-api/issues"
+  },
+  "homepage": "https://github.com/wagstalos/ead-api#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^18.4.0"
+  }
+}
